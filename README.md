@@ -1,5 +1,5 @@
-# my-music-depot
-Daniel Sablosky's AWS FullStack Serverless Application
+# Daniel Sablosky's AWS FullStack Serverless Application
+
 
 ## DynamoDB
 An AWS DynamoDB called OnicaMusic was created with twelve items.
@@ -19,13 +19,17 @@ logs.
 onicaMusicAPI was created for two GET methods:
 
 This method uses the listOnicaMusic Lambda function:
+
 arn:aws:execute-api:us-east-1:754237792635:xxd1q7fcf3/\*/GET/onicamusic
 
 This resource uses the listOnicaMusic Lambda function:
+
 arn:aws:execute-api:us-east-1:754237792635:xxd1q7fcf3/\*/GET/onicamusic/id
 
 There are stages for dev and prod:
+
 https://xxd1q7fcf3.execute-api.us-east-1.amazonaws.com/dev
+
 https://xxd1q7fcf3.execute-api.us-east-1.amazonaws.com/prod
 
 ## Amazon S3
