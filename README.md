@@ -1,4 +1,4 @@
-# Daniel Sablosky's AWS FullStack Serverless Application
+# AWS FullStack Serverless Application
 
 
 ## DynamoDB
